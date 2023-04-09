@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [OpencartSuite]]">
+  <test name="OpenCartTest(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_003_LoginDataDrivenTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="test_LoginDDT" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+    </classes>
+  </test> <!-- OpenCartTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [OpencartSuite]] -->
